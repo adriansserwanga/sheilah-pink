@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>JB LABS SOCIAL MEDIA BRANDING</title>
+<h1>JB LABS SOCIO MEDIA BRANDING FOR SHEILAH PINK</h1>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="light-mode">
+    <header class="header">
+        <div class="header-inner">
+            <h1 class="logo">FACEBOOK</h1>
+            <div class="search-bar">
+                <input type="text" placeholder="Search ">
+            </div>
+            <div class="header-icons">
+                <div class="icon icon-home"><i class="fas fa-home"></i></div>
+                <div class="icon icon-friends"><i class="fas fa-user-friends"></i></div>
+                <div class="icon icon-messenger"><i class="fas fa-comments"></i></div>
+                <div class="icon icon-notifications"><i class="fas fa-bell"></i></div>
+                <div class="icon icon-settings"><i class="fas fa-cog"></i></div>
+            </div>
+            <div class="profile-picture1">
+                <img src="IMAGE 1.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="cover-photo">
+            <img src="IMAGE 2.jpg" alt="Cover Photo">
+        </div>
+        <div class="user-info">
+            <img class="IMAGE 3.jpg" alt="Profile Picture">
+            <h1 class="user-name">SHEILAH PINK
+</h1>
+            <p class="user-location">MASAKA, UGANDA</p>
+            <p class="user-number">0709585319</p>
+            <p class="user-job">FASHION DESIGNER</p>
+            
+        </div>
+
+        <div class="user-tabs">
+            <a href="#" class="tab tab-active">Posts</a>
+            <a href="#" class="tab">Friends</a>
+            <a href="#" class="tab">Photos</a>
+            <a href="#" class="tab">More</a>
+        </div>
+
+        <div class="user-content">
+            <div class="post">
+                <p><b>Friends</b></p>
+                <img src="IMAGE 4.jpg" alt="Post Image">
+                <img src="IMAGE 5.jpg" alt="Post Image">
+                <img src="IMAGE 6.jpg" alt="Post Image">
+                <img src="IMAGE 7.jpg" alt="Post Image">
+            </div>
+            <div class="post">
+                <p><b>YOUR NUMBER ONE FASHION DESIGNER</b></p>
+                <img src="IMAGE 8.jpg" alt="Post Image">
+            </div>
+        </div>
+    </main>
+
+    <button 
+  class="theme-toggle" 
+  id="theme-toggle" 
+  title="Toggles light & dark" 
+  aria-label="auto" 
+  aria-live="polite"
+>
+  dark-mode
+</button>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class ="footer-links">
+                <a href="#">About</a>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Cookies</a>
+                <a href="#">Careers</a>
+                <a href="#">Help</a>
+            </div>
+            <div class="footer-language">
+                <select>
+                    <option value="en">English (US)<English (US)></option>
+                    <option value="es">Germany<Germany></option>
+                </select>
+            </div>
+        </div>
+    </footer>
+<script>
+
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
